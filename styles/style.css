@@ -1,0 +1,346 @@
+/* general-styling */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    user-select: none;
+ }
+
+ /* header-styling */
+header{
+    background: linear-gradient(to top, rgba(106, 160, 204, 0.068), rgba(2, 41, 41, 0.521)),
+    url("../images/background.jpg");
+    background-position: center;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navigation-bar styling */
+ nav{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: michael 3.2s ease-in-out forwards;
+ }
+ nav ul.one{
+    display: flex;
+    gap: 30px;
+ }
+ nav ul.two{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+ }
+
+ nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-bottom: 2px;
+}
+ nav ul li a:hover{
+    border-bottom: 3px solid rgb(3, 196, 3);
+}
+nav ul.two button{
+    border: none;
+    font-weight: bolder;
+    background-color: rgb(5, 175, 5);
+    color: white;
+    border-radius: 5px;
+}
+nav ul.two button:hover{
+    background-color: white;
+    color: rgb(5, 175, 5);
+}
+nav ul.two button.one{
+    padding: 7px 10px;
+}
+nav ul.two button.two{
+    padding: 7.5px 15px;
+}
+
+/* nav-bar logo-styling */
+div.logo a{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: white;
+    word-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* div-one and article-styling */
+div.one{
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    animation: michael 4.4s ease-in-out forwards;
+}
+@keyframes michael {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+div.one p{
+    text-transform: capitalize;
+}
+article{
+    margin: 1% auto;
+    width: 95%;
+    height: 130px;
+    background-color: rgba(10, 65, 136, 0.568);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.article-one{
+    height: 70%;
+    width: 10%;
+    font-size: 1.4rem;
+    padding: 20px;
+    align-content: center;
+    color: white;
+}
+.article-one input{
+    padding: 10px 7px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+}
+.article-one a button{
+    background-color: rgb(5, 175, 5);
+    padding: 10px;
+    margin-top: 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.article-one a button:hover{
+    background-color: white;
+    color: rgb(5, 175, 5);
+}
+
+/* partnerships styling */
+.real-companies h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: green;
+}
+.real-companies .image{
+    width: 70%;
+    height: 130px;
+    margin: 1% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* featured-listing */
+div.two{
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+hgroup{
+    color: green;
+    display: flex;
+    justify-content: space-between;
+}
+h3 a{
+    color: green;
+}
+div.two hgroup h3 a:hover{
+    color: rgb(1, 77, 1);
+}
+.featured{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.featured-pics{
+    height: inherit;
+    width: 23%;
+}
+.featured-image{
+    width: 100%;
+    height: 55%;
+    border-radius: 7px;
+    align-content: center;
+}
+.featured-image img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.featured-text{
+    width: 100%;
+    height: 38%;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+div.two hr{
+    width: 50%;
+    margin: 1% auto;
+}
+div.two select{
+    border: none;
+    margin-left: 530px;
+}
+
+/* needle-haystack styling */
+div.three{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.three h1{
+    text-align: center;
+}
+.grid{
+    margin: 1% auto;
+    margin-left: 7%;
+    width: 90%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.grid-child{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.grid-image{
+    height: 80%;
+    width: 20%;
+}
+.grid-text{
+    height: 100%;
+    width: 73%;
+}
+
+/* clients-reviews styling */
+.testimonial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.testimonial .up{
+    text-align: center;
+}
+.testimonial .down{
+    width:93%;
+    height: 250px;
+    margin: 1% auto;
+    display: flex;
+    justify-content: space-between;
+}
+.testimonial .rating{
+    height: 70%;
+    width: 25%;
+    background-color: rgba(2, 67, 151, 0.055);
+    padding: 30px;
+}
+
+/* the-oasis styling */
+div.four{
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+div.four  em{
+    font-weight: 600;
+    color: darkgreen;
+}
+div.four div.numbers{
+    margin: 1% auto;
+    width: 85%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+div.four div.numbers h1{
+    color: darkgreen;
+}
+div.four div.numbers div.numbers-one{
+    text-align: center;
+}
+div.four div.numbers div.numbers-one h1{
+    font-size: 3rem;
+}
+
+/* popular-properties and footer-styling  */
+div.five{
+    width: 90.48%;
+    height: 700px;
+    background-color: rgb(1, 60, 1);
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+div.five-up{
+    display: flex;
+    justify-content: space-between;
+}
+div.five div.text{
+    padding-top: 30px;
+    color: white;
+}
+div.five-down{
+    display: flex;
+    justify-content: space-between;
+}
+div.five-down .text ul li a{
+    color: white;
+}
+div.five-down a img:hover{
+    border: 1px solid white;
+}
+div.five-end{
+    display: flex;
+    justify-content: space-between;
+}
+div.five-end p.chevron a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+div.five-end div.icons{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+div.five-end div.icons div.social-media{
+    width: 35px;
+    height: 100%;
+    font-size: 1.8rem;
+    text-align: center;
+}
+div.five-end div.icons div.social-media:hover{
+    border-bottom: 1px solid white;
+}
+div.five-end p a{
+    color: white;
+}
+

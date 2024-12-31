@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    user-select: none;
+    text-decoration: none;
+    list-style: none;
+ }
+body{
+    background-color: rgb(233, 233, 233);
+}
+header{
+   background: linear-gradient(to top, rgba(98, 155, 202, 0.075), rgba(3, 56, 56, 0.651)), url("../images/background.jpg");
+   background-position: center;  
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+ nav{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ nav ul.one{
+    display: flex;
+    gap: 30px;
+ }
+
+ nav ul.two{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+ }
+ 
+ nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ nav ul li a:hover{
+    border-bottom: 3px solid rgb(3, 196, 3);
+}
+
+nav ul.two button{
+    border: none;
+    font-weight: bolder;
+    background-color: rgb(5, 175, 5);
+    color: white;
+    border-radius: 5px;
+}
+nav ul.two button:hover{
+    background-color: white;
+    color: rgb(5, 175, 5);
+}
+nav ul.two button.one{
+    padding: 7px 10px;
+}
+nav ul.two button.two{
+    padding: 7.5px 15px;
+}
+div.logo a{
+    font-weight: bolder;
+    color: white;
+    word-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ #container{
+  background-color: rgba(4, 60, 133, 0.562);
+  margin: 1% auto;
+  margin-top: 50px;
+  padding: 3%;
+  height: 450px;
+  width: 60%;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 15%;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+article.two h1{
+   color: white;
+}
+ input{
+  padding: 8px 5px;
+  border: 2px solid white;
+  border-radius: 3px;
+  background-color: transparent;
+  color: white;
+ }
+ h1{
+  font-size: 2.2rem;
+ }
+ button{
+  padding: 10px 25px;
+  border-radius: 30px;
+  background-color: white;
+  color: rgb(5, 195, 5);
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+ }
+ button:hover{
+  background-color: rgb(5, 195, 5);
+  color: white;
+ }
+ article.two p a{
+   color: rgb(5, 195, 5);
+ }
+ article.two p a:hover{
+   border-bottom: 1px solid rgb(5, 195, 5);
+ }
+ .featured{
+    margin: 1px auto;
+    margin-top: 35px;
+    width: 90%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.featured-pics{
+    height: inherit;
+    width: 23%;
+}
+.featured-image{
+    width: 100%;
+    height: 55%;
+    border-radius: 7px;
+    align-content: center;
+}
+.featured-image img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.featured-text{
+    width: 100%;
+    height: 38%;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+ footer{
+    width: 90.4%;
+    height: 357px;
+    background-color: rgb(0, 75, 0);
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.five-down div.text{
+    padding-top: 30px;
+    color: white;
+}
+div.five-down div.text h1{
+    font-size: 1.5rem;
+}
+div.five-down{
+    display: flex;
+    justify-content: space-between;
+}
+div.five-down .text ul li a{
+    color: white;
+}
+div.five-down a img:hover{
+    border: 1px solid white;
+}
+div.five-end{
+    display: flex;
+    justify-content: space-between;
+}
+div.five-end p.chevron a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+div.five-end div.icons{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+div.five-end div.icons div.social-media{
+    width: 35px;
+    height: 100%;
+    font-size: 1.8rem;
+    text-align: center;
+}
+div.five-end div.icons div.social-media:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 1px;
+}
+div.five-end p a{
+    color: white;
+}
